@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+    padding: 2px 4px;
+    background-color: black;
+    color: white;
+    margin: 8px;
+}
+.content{
+    max-width: 1080px;
+    margin: 20px auto;
+    padding: 20px 40px;
+}
+.content .allpaps, .make{
+    margin-bottom: 15px;
+}
+.content .pad{
+    padding: 5px 10px;
+}
+.content .secondcontent p{
+    margin: 5px;
+}
+
+.cursor{
+    animation: cursor .5s infinite;
+    transition: all .5s ease;
+}
+
+@keyframes cursor{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.wire{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}

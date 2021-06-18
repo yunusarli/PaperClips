@@ -6,3 +6,4 @@ Basic version of [universal paperclips game](https://www.decisionproblem.com/pap
 * buy and consume raw materials
 * hire employees to create more paperclips automatically
 * balancing supply and demand by setting a fee
+* show notification when user achieved a new level

@@ -152,13 +152,7 @@ function GoodDemand(price){
     return (demand - realPrice*factor)
 }
 
-//function update(){
-  //  demand = parseInt(localStorage.getItem('demand'));
-//}
-//let upd = setInterval(update,100);
-//setInterval(def,1000*(100/demand));
 
-let sell = document.querySelector('.sell')
 
 // A function for sold our paperclips automatically.
 function def(){
